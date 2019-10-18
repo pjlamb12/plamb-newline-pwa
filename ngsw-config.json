@@ -23,7 +23,7 @@
 			"name": "swapi",
 			"urls": ["https://swapi.co/**"],
 			"cacheConfig": {
-				"strategy": "freshness",
+				"strategy": "performance",
 				"maxSize": 100,
 				"maxAge": "3d",
 				"timeout": "5s"
