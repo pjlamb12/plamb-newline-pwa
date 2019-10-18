@@ -1,1 +1,24 @@
 @import '~node_modules/bootstrap/scss/bootstrap.scss';
+
+#pwa-install-prompt {
+	display: none;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+
+	.prompt-container {
+		padding: 15px;
+		border: 1px solid #4a4a4a;
+		border-radius: 3px;
+		background-color: #eee;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	button {
+		margin-left: 10px;
+	}
+}
